@@ -7,9 +7,7 @@ import {
   Instagram,
   LinkedIn,
 } from "@mui/icons-material";
-
 import { TypeAnimation } from "react-type-animation";
-
 import "./Home.css";
 import robert from "../../assets/images/robert.jpg";
 
