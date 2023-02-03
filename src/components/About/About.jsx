@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./About.css";
-import about_pic from "../../assets/images/logocopy.png";
+
 import LightModeIcon from "@mui/icons-material/LightMode";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
@@ -43,7 +43,7 @@ function About() {
         </div>
         <div className="about__right">
           <div className="about__img">
-            <img src={about_pic} alt="" />
+            <img src={'/public/images/logocopy.png'} alt="" />
           </div>
         </div>
       </div>

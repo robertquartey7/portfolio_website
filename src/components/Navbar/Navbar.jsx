@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../../assets/images/logocopy.png";
 import "./Navbar.css";
 import Avatar from "@mui/material/Avatar";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -38,7 +37,7 @@ function Navbar() {
         animate="show"
       >
         <motion.div className="" variants={leftItem}>
-          <Avatar src={logo} alt="" className="avatar" />
+          <Avatar src={"/images/logocopy.png"} alt="" className="avatar" />
         </motion.div>
         <motion.div
           className={!clicked ? "nav-item " : "nav-item hide"}

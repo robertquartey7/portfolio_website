@@ -9,7 +9,7 @@ import {
 } from "@mui/icons-material";
 import { TypeAnimation } from "react-type-animation";
 import "./Home.css";
-import robert from "../../assets/images/robert.jpg";
+
 
 function Home() {
   const container = {
@@ -114,7 +114,7 @@ function Home() {
         <motion.div></motion.div>
       </motion.div>
       <div className="home__right">
-        <img src={robert} alt="" className="right__image" />
+        <img src={'/public/images/robert.jpg'} alt="" className="right__image" />
       </div>
     </div>
   );
