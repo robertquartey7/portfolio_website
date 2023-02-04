@@ -114,7 +114,7 @@ function Home() {
         <motion.div></motion.div>
       </motion.div>
       <div className="home__right">
-        <img src={'/public/images/robert.jpg'} alt="" className="right__image" />
+        <img src='/images/robert.jpg' alt="" className="right__image" />
       </div>
     </div>
   );
