@@ -6,7 +6,9 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 
 function About() {
- 
+ const linkStyle ={
+  textDecoration:'none'
+}
 
   return (
     <div className="about min__height" id="about" >
@@ -34,8 +36,8 @@ function About() {
           <p className="">
             Hi my name is Robert Quartey and I'm currently a senior at john jay
             criminal justice and also a fellow at the knowledge house, where I’m
-            studying technologies like <a href="/">React.js</a>{" "}
-            <a href="/">Node.js</a> and <a href="/">MongoDB.js</a>.
+            studying technologies like <a href="/" className="text-primary" style={linkStyle}>React.js</a>{" "}
+            <a href="/"  style={linkStyle} className="text-primary">Node.js</a> and <a href="/"  style={linkStyle} className="text-primary">MongoDB.js</a>.
           </p>
           <a href="/" className="resume">
             Download Resume

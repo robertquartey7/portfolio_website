@@ -1,15 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-
-  Email,
-  GitHub,
-  Instagram,
-  LinkedIn,
-} from "@mui/icons-material";
+import { Email, GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 import { TypeAnimation } from "react-type-animation";
 import "./Home.css";
-
 
 function Home() {
   const container = {
@@ -77,8 +70,9 @@ function Home() {
           I build things for the web
         </motion.h2>
         <motion.p className="home__interest" variants={item}>
-          I'm a Software enginecomputer science major and i have a lot of
-          interest in solving problems and trying new technologies out.
+          I'm a junior software engineer from new york. I Love to bring my ideas
+          to reality with code. I have a lot of interest in solving problems and
+          trying new technologies out.
         </motion.p>
         <motion.a
           href="https://www.linkedin.com/in/robert-quartey-772b69193/"
@@ -89,7 +83,10 @@ function Home() {
           LinkedIn
         </motion.a>
 
-        <motion.div className="portfolio__side" variants={container}>
+        <motion.div
+          className="portfolio__side "
+          variants={container}
+        >
           <div className="social">
             <span className="text after">say hello</span>
             <span className="line"></span>
@@ -114,7 +111,7 @@ function Home() {
         <motion.div></motion.div>
       </motion.div>
       <div className="home__right">
-        <img src='/project/robert.jpg' alt="" className="right__image" />
+        <img src="/project/robert.jpg" alt="" className="right__image" />
       </div>
     </div>
   );

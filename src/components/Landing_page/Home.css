@@ -63,7 +63,7 @@
   transition: all 0.2s ease-in-out;
 }
 .portfolio__side {
-  position: absolute;
+  position: fixed;
   bottom: 15%;
   left: 3%;
   display: flex;

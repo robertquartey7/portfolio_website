@@ -62,16 +62,12 @@
 
 @media only screen and (max-width: 768px) {
   .project__card {
-    position: relative;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .card__info {
-    position: absolute;
+   
     align-items: flex-start;
-    justify-content: space-between;
-    color: white !important;
-    border-radius: 10px;
-    
     height: 100%;
   }
   .project__img {
