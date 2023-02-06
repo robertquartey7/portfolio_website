@@ -6,12 +6,12 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 
 function About() {
- const linkStyle ={
-  textDecoration:'none'
-}
+  const linkStyle = {
+    textDecoration: "none",
+  };
 
   return (
-    <div className="about min__height" id="about" >
+    <div className="about min__height" id="about">
       <h1 className="about__title">About Me</h1>
 
       <div className="about__content container-fluid">
@@ -36,16 +36,30 @@ function About() {
           <p className="">
             Hi my name is Robert Quartey and I'm currently a senior at john jay
             criminal justice and also a fellow at the knowledge house, where I’m
-            studying technologies like <a href="/" className="text-primary" style={linkStyle}>React.js</a>{" "}
-            <a href="/"  style={linkStyle} className="text-primary">Node.js</a> and <a href="/"  style={linkStyle} className="text-primary">MongoDB.js</a>.
+            studying technologies like{" "}
+            <a href="/" className="text-primary" style={linkStyle}>
+              React.js
+            </a>{" "}
+            <a href="/" style={linkStyle} className="text-primary">
+              Node.js
+            </a>{" "}
+            and{" "}
+            <a href="/" style={linkStyle} className="text-primary">
+              MongoDB.js
+            </a>
+            .
           </p>
-          <a href="/" className="resume">
+          <a
+            href="./Robert_quartey.docx.pdf"
+            className="resume"
+            target={"_blank"}
+          >
             Download Resume
           </a>
         </div>
         <div className="about__right">
           <div className="about__img">
-            <img src={'/images/logocopy.png'} alt="" />
+            <img src={"/images/logocopy.png"} alt="" />
           </div>
         </div>
       </div>

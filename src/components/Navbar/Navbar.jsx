@@ -56,8 +56,9 @@ function Navbar() {
             Contact
           </Link>
           <a
-            href="https://docs.google.com/document/d/1nKz9fXta8dZZswG0Ix5l0zwK0-0C8rChEDToKVz-w-8/export?format=pdf"
+            href="./Robert_quartey.docx.pdf"
             className="btn btn-outline-primary"
+            target="_blank"
           >
             Resume
           </a>
