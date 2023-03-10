@@ -4,7 +4,7 @@ export const Project = [
     projectTitle: "Movie App",
     projectDescription:
       "Displays real time Movies and TV shows coming out with the name and release date using flask. Uses a movie api to get the hot Movies and Tv shows coming for the day and week.",
-    gitHubLink: "https://github.com/robertquartey7",
+    gitHubLink: "https://github.com/robertquartey7/Movie_box",
     imageLink: "/project/movieapp1.gif",
     demo: "",
     live: "",
@@ -14,7 +14,7 @@ export const Project = [
   {
     projectTitle: "color-gram",
     projectDescription: "Takes a photo and extract the colors from the photo.",
-    gitHubLink: "https://github.com/robertquartey7",
+    gitHubLink: "https://github.com/robertquartey7/color_gram",
     imageLink: '/project/color-gram.gif',
     demo: "",
     live: "",
@@ -27,7 +27,7 @@ export const Project = [
     gitHubLink: "https://github.com/robertquartey7/spotify",
     imageLink: '/project/spotify.gif',
     demo: "",
-    live: "",
+    live: "https://www.spotify-indol-two.vercel.app",
     techStack: ["React", "Javascript", "VsCode", "Spotify API"],
   },
 ];

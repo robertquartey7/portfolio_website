@@ -1,7 +1,7 @@
 import React from "react";
 import { GitHub } from "@mui/icons-material";
 import LaunchIcon from "@mui/icons-material/Launch";
-import { Link } from "react-router-dom";
+
 import "./Project.css";
 
 function ProjectCard({
@@ -35,19 +35,19 @@ function ProjectCard({
           </div>
           <div className="d-flex gap-2">
             {gitHubLink && (
-              <Link to={gitHubLink}>
+              <a href={gitHubLink} target="_blank">
                 <GitHub />
-              </Link>
+              </a>
             )}
             {live && (
-              <Link to={"/"}>
+              <a href={"/"} target="_blank">
                 <LaunchIcon />
-              </Link>
+              </a>
             )}
             {demo && (
-              <Link to={"/"}>
+              <a href={"/"} target="_blank">
                 <span className="">Demo</span>
-              </Link>
+              </a>
             )}
           </div>
         </div>
