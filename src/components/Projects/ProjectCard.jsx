@@ -40,12 +40,12 @@ function ProjectCard({
               </a>
             )}
             {live && (
-              <a href={"/"} target="_blank">
+              <a href={live} target="_blank">
                 <LaunchIcon />
               </a>
             )}
             {demo && (
-              <a href={"/"} target="_blank">
+              <a href={demo} target="_blank">
                 <span className="">Demo</span>
               </a>
             )}
