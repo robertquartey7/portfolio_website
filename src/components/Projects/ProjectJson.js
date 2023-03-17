@@ -27,7 +27,7 @@ export const Project = [
     gitHubLink: "https://github.com/robertquartey7/spotify",
     imageLink: '/project/spotify.gif',
     demo: "",
-    live: "https://www.spotify-indol-two.vercel.app",
+    live: "https://spotify-indol-two.vercel.app",
     techStack: ["React", "Javascript", "VsCode", "Spotify API"],
   },
 ];
