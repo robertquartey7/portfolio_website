@@ -1,7 +1,7 @@
 import React from "react";
 import { GitHub } from "@mui/icons-material";
 import LaunchIcon from "@mui/icons-material/Launch";
-
+import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
 import "./Project.css";
 
 function ProjectCard({
@@ -46,7 +46,7 @@ function ProjectCard({
             )}
             {demo && (
               <a href={demo} target="_blank">
-                <span className="">Demo</span>
+               <PersonalVideoIcon/>
               </a>
             )}
           </div>

@@ -8,7 +8,7 @@ export const Project = [
     imageLink: "/project/movieapp1.gif",
     demo: "",
     live: "",
-    techStack: ["Python", "Flask", "VsCode", "Movie API"],
+    techStack: ["Python", "Flask", "Movie API"],
   },
 
   {
@@ -18,7 +18,7 @@ export const Project = [
     imageLink: '/project/color-gram.gif',
     demo: "",
     live: "",
-    techStack: ["Python", "Flask", "VsCode", "color-gram"],
+    techStack: ["Python", "Flask", "color-gram"],
   },
   {
     projectTitle: "Music Player",
@@ -26,8 +26,8 @@ export const Project = [
       "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.",
     gitHubLink: "https://github.com/robertquartey7/spotify",
     imageLink: '/project/spotify.gif',
-    demo: "",
+    demo: "https://youtu.be/0IzDf-3EPdI",
     live: "https://spotify-indol-two.vercel.app",
-    techStack: ["React", "Javascript", "VsCode", "Spotify API"],
+    techStack: ["React", "Javascript", "Spotify API"],
   },
 ];
