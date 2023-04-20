@@ -30,4 +30,14 @@ export const Project = [
     live: "https://spotify-indol-two.vercel.app",
     techStack: ["React", "Javascript", "Spotify API"],
   },
+  {
+    projectTitle: "Skycart",
+    projectDescription:
+      "A marketplace application that allow people owner to sell and buy goods.",
+    gitHubLink: "https://github.com/robertquartey7/marketplace",
+    imageLink: '/project/marketplace.png',
+    demo: "https://youtu.be/aFi4KmIf2j0",
+    live: "",
+    techStack: ["React", "Javascript", "express"],
+  },
 ];
